@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Aula 7 - Continuação do Formulário</title>
+    <meta charset="UTF-8">
+</head>
+<body bgcolor=#CECECE> 
+    <form method="Post" action="aula.php">
+        <fieldset><legend>Cadastro de Cliente</legend>
+        Estado:<select>
+        <optgroup label="Região Sudeste">
+        
+            <option>AC</option>
+            <option>RJ</option>
+            <option>SP</option>
+        </optgroup>
+        <optgroup label="Região Nordeste">
+            <option>CE</option>
+            <option>MA</option>
+        </optgroup>
+        </select>
+        <h1>Comentário</h1>
+        <textarea rows=10 cols=30></textarea>
+        <br>
+            <input type="submit" value="Enviar">
+            <input type="button" value="button">
+            <input type="send" value="limpar">
+        <br><br>
+            <label for="cor">Cor</label>
+            <input type="color" name="cor" id="cor"/>
+        <br><br>
+        Minimo<input type="range" main=0 max=40 />Maximo
+        <br><br>
+        <div>
+        <b>Calculadora:</b><br>
+
+        <label for="resultado"><input type="number"></label><br>
+        <input type="submit" value="7">
+        <input type="submit" value="8">
+        <input type="submit" value="9">
+        <input type="submit" value="+">
+        
+        <br>
+        <input type="submit" value="4">
+        <input type="submit" value="5">
+        <input type="submit" value="6">
+        <input type="submit" value="-">
+        
+        <br>
+        <input type="submit" value="1" width="20px">
+        <input type="submit" value="2">
+        <input type="submit" value="3">
+        <input type="submit" value="*">
+        <br>
+        <input type="submit" value="0">
+        <input type="submit" value=".">
+        <input type="submit" value="/">
+        <input type="submit" value="=">
+        </div>
+
+    </form>
+    </fieldset>
+
+</body>
+</html>
