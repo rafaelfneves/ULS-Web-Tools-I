@@ -1,0 +1,65 @@
+h1 {
+    /* propriedade usada para especificar o recuo, um paragrafo */
+    text-indent: 50px; 
+    /* espaço entre os caracteres, valor positivo separa os caracteres, valor negativo junta */
+    letter-spacing: 4px;
+    /* para dar espaço entre as palavras valor positivo separa as palavras, negativo junta */
+    word-spacing: 30px;
+    border: 6px dotted #CC6699;
+    border-radius: 45px;
+    background-clip: border-box;
+    background-color: #007BA7;
+}
+
+h2 {
+    border: 6px dotted #CC6699;
+    border-radius: 45px;
+    background-color: #731Db1;
+    background-clip: padding-box;
+}
+
+#a {
+    /* para inserir borda do lado esquerdo*/
+    border-left: 6px solid #CC6699;
+    background-color:#00FFFF;
+}
+
+#b {
+    border-bottom: 6px dotted #9370DB;
+}
+
+#c {
+    border-right: 6px dashed #00FA9A;
+    background-color: #FF0000;
+}
+
+#d {
+    border-top: 6px double #6FFcae;
+    background-color: #6D93FF;
+}
+
+#e {
+    border-bottom: 8px ridge #9370DB;
+    border-left: 8px groove #53FFDA;
+    border-top: 8px outset #00FA9A;
+    background-color: #FFED27;
+    /* 
+        dotted-borda pontilhada;
+        solid  - borda com linha sólida;
+        dashed - bordas tracejadas;
+        double - bordas com linhas duplas;
+        groove - bordas com estilo 3D;
+        ridge  - bordas com estilo 3D com as cores ao contrário;
+        inset - efeito 3D de baixo relevo;
+        outset - efeito 3D de alto relevo;
+        none - sem borda;
+    */
+}
+
+#f {
+    border-bottom: 8px ridge #9370DB;
+    border-left: 8px groove #53FFDA;
+    border-top: 8px outset #00FA9A;
+    background-color: #FFED27; 
+    border-radius: 35px;
+}
