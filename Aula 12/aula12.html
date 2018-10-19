@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Aula - 12</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    -->
+
+    <!-- JQuery 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    -->
+</head>
+<body>
+    <form>
+        <fieldset id="usuario"><legend>Identificação do Usuario</legend>
+            <p><label for="name">Nome: <input id="nome" type="text" name="nome" placeholder="Nome Completo"></label></p>
+            <p><label for="password">Senha: <input id="password" type="password" name="password" placeholder="8 Digitos" maxlength="8"></label></p>
+            <p><label for="mail">Email: <input id="email" type="email" name="email" placeholder="E-mail"></label></p>            
+        <fieldset id="sexo"><legend>Sexo</legend>
+            <p><label for="feminino">Feminio <input id="male" type="radio" name="sexo" ></p></label>
+            <p><label for="masculino">Masculino <input id="female" type="radio" name="sexo"></label></p>
+        </fieldset>
+            <p><label for="date">Data de Nascimento: <input id="date" type="date" name="date"></label></p>            
+        </fieldset>
+        <fieldset id="endereco"><legend>Endereço do Usuário</legend>
+            <p><label for="logradouro">Logradouro: <input id="logradouro" type="text" name="logradouro" placeholder="Rua, Av, Trav"></label></p>
+            <p><label for="nlog">Número: <input id="nlog" type="text" name="nlog" placeholder="Número"></label></p>
+            <p><label for="city">Cidade: <input id="city" type="text" name="city" placeholder="Cidade"></label></p>
+                Estado: <select>
+                <optgroup label="Região Sudeste">
+                        <option>RJ</option>
+                        <option>MG</option>
+                        <option>SP</option>
+                        <option>RS</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option>MA</option>
+                    <option>CE</option>
+                    <option>PR</option>
+                    <option>BA</option>
+                    </optgroup>
+                </select>
+        </fieldset>
+        <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+                <p>Grau de risco: <br>Min<input type="range" min="0" max="100" steps="25">Max</p>
+                <legend>Mensagem</legend>
+                <textarea name="comment" rows="10" cols="25" placeholder="Mensagem..."></textarea><br>
+                <button type="reset" value="reset">Apagar</button>
+                <button type="submit" value="submit">Enviar</button>  
+        </fieldset>
+    </form>
+</body>
+</html>
