@@ -1,0 +1,69 @@
+#botao1 {
+    background-color: rgb(255, 251, 250);
+    color: #000000;
+    font-family: Georgia;
+    font-size: 14pt;
+    border: none;
+    border-radius: 100px;
+    padding: 15px ;
+    cursor: pointer;
+    box-shadow:0 8px 16px 0 #FF0042, 0 0 8px #FF0000;
+}
+
+#botao1:hover {
+    background-color: #000000;
+    color: rgb(175, 174, 174);
+}
+
+#botao2 {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 14pt;
+    border: 2px dotted #4CAF50;
+    padding: 15px ;
+    cursor: pointer;
+    box-shadow:0 8px 16px 0 #FF0042, 0 0 8px #FF0000;
+}
+
+#botao2:hover {
+    background-color: #c50b0b;
+    color: rgb(170, 192, 188);
+}
+
+#botao3 {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 14pt;
+    border-radius: 100px;
+    padding: 15px ;
+    cursor: help;
+    box-shadow:0 8px 16px 0 #FF0042, 0 0 8px #FF0000;
+}
+
+#botao3:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.disable {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.botao3{
+    background-color: rgb(179, 1, 1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Papyrus;
+    float: left;
+}
+
+.botao3:hover {
+    background-color: #000000;
+    color: rgb(179, 1, 1);
+}
