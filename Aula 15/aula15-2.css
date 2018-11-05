@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(rgb(129, 243, 101),rgb(235, 26, 26), rgb(56, 113, 187),rgb(129, 243, 101));
+    animation-name: body;
+    animation-duration:30s;
+    animation-iteration-count: 2; 
+}
+
+@keyframes body {
+    0%{background:url("a.gif")}
+    25%{background:url("b.gif")}
+    50%{background:url("c.gif")}
+    75%{background:url("d.gif")}
+    100%{background:url("e.gif")}
+}
