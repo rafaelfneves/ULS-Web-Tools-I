@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!--TABELA-->
+    <div id="table">
+        <table border=1 cellpadding=10 cellspacing=8>
+                <tr>
+                    <th>Horários</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                </tr>
+                    <th>18:20</th>
+                    <td>Matemática Discreta</td>
+                    <td>Matemática Discreta</td>
+                    <td>Matemática Discreta</td>
+                    <td>O Ser Humano</td>
+                    <td>Ferramentas Web</td>
+                <tr>
+                    <th>19:10</th>
+                    <td>Matemática Discreta</td>
+                    <td>Matemática Discreta</td>
+                    <td>Matemática Discreta</td>
+                    <td>Prog. I</td>
+                    <td>Ferramentas Web.</td>
+                </tr>
+                </tr>
+                    <th>20:20</th>
+                    <td>Ferramentas WEB</td>
+                    <td>Leit. Prod Textos</td>
+                    <td>Prog. I</td>
+                    <td>Prog. I</td>
+                    <td>Int. Sistemas de Inform.</td>
+                <tr>
+                    <th>21:10</th>
+                    <td>Ferramentas WEB</td>
+                    <td>Leit. Prod Textos</td>
+                    <td>Prog. I</td>
+                    <td>Prog. I</td>
+                    <td>Int. Sistemas de Inform.</td>
+                </th>
+        </table>
+    </div>
+
+    <br>
+
+    <div id="form"> 
+        <form>
+            <fieldset id="usuario"><legend>Identificação do Usuario</legend>
+                <p><label for="name">Nome: <input id="nome" type="text" name="nome" placeholder="Nome Completo"></label></p>
+                <p><label for="password">Senha: <input id="password" type="password" name="password" placeholder="8 Digitos" maxlength="8"></label></p>
+                <p><label for="mail">Email: <input id="email" type="email" name="email" placeholder="E-mail"></label></p>            
+            <fieldset id="sexo"><legend>Sexo</legend>
+                <p><label for="feminino">Feminio <input id="male" type="radio" name="sexo" ></p></label>
+                <p><label for="masculino">Masculino <input id="female" type="radio" name="sexo"></label></p>
+            </fieldset>
+                <p><label for="date">Data de Nascimento: <input id="date" type="date" name="date"></label></p>            
+            </fieldset>
+            <fieldset id="endereco"><legend>Endereço do Usuário</legend>
+                <p><label for="logradouro">Logradouro: <input id="logradouro" type="text" name="logradouro" placeholder="Rua, Av, Trav"></label></p>
+                <p><label for="nlog">Número: <input id="nlog" type="text" name="nlog" placeholder="Número"></label></p>
+                <p><label for="city">Cidade: <input id="city" type="text" name="city" placeholder="Cidade"></label></p>
+                    Estado: <select>
+                    <optgroup label="Região Sudeste">
+                            <option>RJ</option>
+                            <option>MG</option>
+                            <option>SP</option>
+                            <option>RS</option>
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option>MA</option>
+                        <option>CE</option>
+                        <option>PR</option>
+                        <option>BA</option>
+                        </optgroup>
+                    </select>
+            </fieldset>
+            <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+                    <p>Grau de risco: <br>Min<input type="range" min="0" max="100" steps="25">Max</p>
+                    <legend>Mensagem</legend>
+                    <textarea name="comment" rows="10" cols="25" placeholder="Mensagem..."></textarea><br>
+                    <button type="reset" value="reset">Apagar</button>
+                    <button type="submit" value="submit">Enviar</button>  
+            </fieldset>
+        </form>
+    </div>
+    <!--FIM DA TABELA-->
+
+</body>
+</html>

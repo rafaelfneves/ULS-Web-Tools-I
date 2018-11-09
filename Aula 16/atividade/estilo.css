@@ -1,0 +1,25 @@
+*{
+    margin: 0 auto;
+}
+
+table {
+    background: linear-gradient(red,orange,yellow,green,blue,purple);
+    border: 4px solid;
+    border-color:black;
+    color: white;
+}
+
+th{
+    background-color: rgb(8, 8, 8);
+}
+
+td {
+    background-color: white;
+    color: black;
+}
+
+#form {
+    margin: 0 auto;
+    width: 800px;
+}
+
