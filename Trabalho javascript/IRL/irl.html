@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>IRL,Finanças e Custos</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="reset.css"><!-- Concertar o fundo da pagina-->
+		<link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+	</head>
+	<body class="is-preload">
+ 		<div class="esquerda">
+		<!-- menu -->
+			<section id="menu">
+				<div class="opcao">
+					<nav>
+						<ul>
+							<br><br>
+							<li><a href="#intro">Bem Vindo.</a></li><br>
+							<li><a href="#quem">Quem Somos?</a></li><br>
+							<li><a href="#nossa">Nossa Missão.</a></li><br>
+                            <li><a href="#simule">Simule seu Tesouro!</a></li><br>
+                            <li><a href="#contato">Contato.</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+		</div>
+	<div id	="corpo">
+		<!-- contorno -->
+			<div id="contorno">
+
+				<!-- Intro -->
+					<section id="intro" class="fundo">
+						<div class="interior">
+							<h1>Irl,Finanças e Custos</h1>
+							<p>Um real Divisor de Águas no Mundo dos Investimentos,e com nossas <a href="https://www.youtube.com/channel/UC8mDF5mWNGE-Kpfcvnn0bUg">AULAS</a><br />
+                            venha tomar controle deste mundo e de seu <a href="https://www.toroinvestimentos.com.br/bolsa/investir?utm_source=google&utm_medium=cpc&utm_campaign=1437540134&utm_content=71359863787&utm_term=cota%C3%A7%C3%A3o%20ibov&gclid=Cj0KCQjwrdjnBRDXARIsAEcE5Yk2Yu0WB0lqrk7Czc_0GheeFYXIvmeZgA7yU-2TmoVN5BNy_aPZ788aAq8tEALw_wcB">Dinheiro</a>,
+                             faça sua <a href="#simule"> SIMULAÇÃO</a>agora.</p>
+							<ul class="acoes">
+								<li><a href="#quem" class="rolar">Saiba mais</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Quem Somos? -->
+					<section id="quem" class="contorno 2">
+						<section>
+							<a href="#" class="imagem"><img src="efeitos/imagens/pic01.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="interior">
+									<h2>Igor Amora</h2>
+									<p>CEO da IRL,Finanças e Custos;e cofundador.</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="imagem"><img src="efeitos/imagens/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="interior">
+									<h2>Rafael Neves</h2>
+									<p>Data Manager,Sistem Developer e confundador.</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="imagem"><img src="efeitos/imagens/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="interior">
+									<h2>Nathan Lins</h2>
+									<p>Garoto propaganda e gente boa.</p>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Nossa Missão -->
+					<section id="nossa" class="contorno 3">
+						<div class="interior">
+							<h2>Nossa Missão</h2>
+							<p>Trazer real valor para o seu dinheiro e lhe fornecer a oportunidade de viver realmente o fruto dos seus esforços sem perecer na mão dos impostos.</p>
+							<div class="recursos">
+								<section>
+									<span class="icon major fa-code"></span>
+									<h3>Fundamentos</h3>
+									<p>Lhe apresentaremos a base para seu sucesso financeiro.</p>
+								</section>
+								<section>
+									<span class="icon major fa-lock"></span>
+									<h3>Segurança</h3>
+									<p>A maneira acertiva de investis em seu tesouro.</p>
+								</section>
+								<section>
+									<span class="icon major fa-cog"></span>
+									<h3>Desenvolvimento</h3>
+									<p>Tenha a conquista do seu dinheiro gerando mais dinheiro.</p>
+								</section>
+								<section>
+									<span class="icon major fa-desktop"></span>
+									<h3>Acompanhamento</h3>
+									<p>Nossos professores e conselheiros estarão a sua disposição 24h .</p>
+								</section>
+								<section>
+									<span class="icon major fa-chain"></span>
+									<h3>Networking</h3>
+									<p>Conheça os grandes nomes do universo financeiro.</p>
+								</section>
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<h3>Glória</h3>
+									<p>Temos o compromisso de lhe retornar até 150% do investido até 3 meses concluídos do curso.</p>
+								</section>
+							</div>
+						</div>
+                    </section>
+                <!--Simulador-->
+                <hr><br><form><fieldset>
+
+                    <legend>Custo Variavel</legend>
+                        <table class="tg">
+							 <tr>
+                                <th class="tg-0lax">Dado</th>
+                                <th class="tg-0lax">Valor</th><br></th>
+                            </tr>
+                            <tr>
+								<td class="tg-0lax">Custo Variavel Unitario</td>
+								<td class="tg-0lax"><input type="text" id="CVU" class="CU"><br></td>
+							</tr>
+                            <tr>
+                                <td class="tg-0lax">Quantidade</td>
+                                <td class="tg-0lax"><input type="text" id="Q4" class="Q4"><br></td>
+                            </tr>
+                            <tr>
+                                <td class="tg-0lax"><input type="button" class="botao" value="Calcular" onClick="enviarCV()"><br></td>
+                                <td class="tg-0lax"><input type="text" id="CV" class="CV" disabled=disabled><br></td>
+                            </tr>
+                        </table>
+                
+                    </fieldset></form><br>
+                    <!--FIM CUSTO VARIAVEL-->
+                
+                    <!-- Tab links -->
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">Receita</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Quantidade</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Preço de Venda</button>
+                    </div>
+					
+					
+                      <!-- Tab content -->
+                    <section id="simule" class="contorno"></section>
+                        <div id="London" class="tabcontent">
+                                    <div class="table-title">
+                                    <h3>Calcular Receita</h3>
+                                    </div>
+                                    <table class="table-fill">
+                                    <thead>
+                                    <tr>
+                                    <th class="text-left">Dado</th>
+                                    <th class="text-left">Valor</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody class="table-hover">
+                                    <tr>
+                                    <td class="text-left">Quantidade</td>
+                                    <td class="text-left"><input type="text" id="Q" class="Q" size="55%"></td>
+                                    </tr>
+                                    <tr>
+                                    <td class="text-left">Preço de Venda</td>
+                                    <td class="text-left"><input type="text" id="PV" class="PV" size="55%" ></td>
+                                    </tr>
+                                    <tr>
+                                    <td class="text-left">Receita</td>
+                                    <td class="text-left"><input type="text" id="R" class="R" disabled=disabled size="55%"></td>
+                                    </tr>
+                                    </tbody>
+                                    </table>
+                                <input type="button" class="botao" value="Calcular" onClick="enviarR()">
+                                <input type="button" class="botao" value="Fechar" onClick="this.parentElement.style.display='none'">
+						</div>
+						<!--Calcular Quantidade-->
+						<div id="Paris" class="tabcontent">
+							<div class="table-title">
+							<h3>Calcular Quantidade</h3>
+							</div>
+							<table class="table-fill">
+							<thead>
+							<tr>
+							<th class="text-left">Dado</th>
+							<th class="text-left">Valor</th>
+							</tr>
+							</thead>
+							<tbody class="table-hover">
+							<tr>
+							<td class="text-left">Receita</td>
+							<td class="text-left"><input type="text" id="R2" class="R2" size="55%"></td>
+							</tr>
+							<tr>
+							<td class="text-left">Preço de Venda</td>
+							<td class="text-left"><input type="text" id="PV2" class="PV2" size="55%" ></td>
+							</tr>
+							<tr>
+							<td class="text-left">Quantidade</td>
+							<td class="text-left"><input type="text" id="Q2" class="Q2" disabled=disabled size="55%"></td>
+							</tr>
+							</tbody>
+							</table>
+						<input type="button" class="botao" value="Calcular" onClick="enviarQ()">
+						<input type="button" class="botao" value="Fechar" onClick="this.parentElement.style.display='none'">
+					</div>
+					</section>
+					<!--Calcular Preço de Venda-->
+					<div id="Tokyo" class="tabcontent">
+						<div class="table-title">
+						<h3>Preço de Venda</h3>
+						</div>
+						<table class="table-fill">
+						<thead>
+						<tr>
+						<th class="text-left">Dado</th>
+						<th class="text-left">Valor</th>
+						</tr>
+						</thead>
+						<tbody class="table-hover">
+						<tr>
+						<td class="text-left">Receita</td>
+						<td class="text-left"><input type="text" id="R3" class="R3" size="55%"></td>
+						</tr>
+						<tr>
+						<td class="text-left">Quantidade</td>
+						<td class="text-left"><input type="text" id="Q3" class="Q3" size="55%" ></td>
+						</tr>
+						<tr>
+						<td class="text-left">Preço de Venda</td>
+						<td class="text-left"><input type="text" id="PV3" class="PV3" disabled=disabled size="55%"></td>
+						</tr>
+						</tbody>
+						</table>
+					<input type="button" class="botao" value="Calcular" onClick="enviarPV()">
+					<input type="button" class="botao" value="Fechar" onClick="this.parentElement.style.display='none'">
+				</div>
+				</section><br><hr>
+				<!--FIM-->
+					
+				<!-- Contato -->
+					<section id="contato" class="contorno">
+						<div class="interior">
+							<h2>Entre em Contato</h2>
+							<p>Se inscreva agora para presenciar um milagre econômico IN REAL LIFE!</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="irl.pho">
+										<div class="campos">
+											<div class="campo metade">
+												<label for="nome">Nome</label>
+												<input type="text" name="name" id="name" placeholder="Coloque seu Nome" />
+											</div>
+											<div class="campo metade">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" placeholder="Coloque seu Email" />
+											</div>
+											<div class="campo">
+												<label for="message">Mensagem</label>
+                                                <textarea name="message" id="message" rows="5" placeholder="Coloque sua Mensagem"></textarea>
+											</div>
+										</div>
+										<ul class="acoes">
+											<li><a href="" class="button submit">Enviar Mensaggem</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="endereço">
+										<li>
+											<h3>Endereço</h3>
+											<span>Nossa Senhora de Santa Thereza<br />
+											Passanoix, CEP 24240-660<br />
+											BR</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">contato@irl.com</a>
+										</li>
+										<li>
+											<h3>Telefone</h3>
+											<span>(011) 2273-7373</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+		</div>
+		<!-- Roda pé -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; La Salle.Todos os direitos Reservados.</li>
+					</ul>
+				</div>
+			</footer>
+
+
+	</body>
+</html>
